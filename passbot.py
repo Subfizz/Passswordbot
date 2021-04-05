@@ -3,7 +3,7 @@ import string
 import telebot
 USERS = []
 
-bot = telebot.TeleBot('1708020452:AAFQCmIKVxgUbZu9YhKxxcdE12Vh2uF3cVE');
+bot = telebot.TeleBot('');
 
 
 @bot.message_handler(commands=['help'])
